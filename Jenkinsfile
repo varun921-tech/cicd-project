@@ -4,7 +4,7 @@
         stages {
             stage('Build') {
                 steps {
-                    git branch: 'dev', credentialsId: '18671910-e369-49dd-a6d6-576c02fa9722', url: 'https://github.com/varun921-tech/cicd-project.git'
+                    git branch: 'dev', credentialsId: 'f4708822-3927-49ed-a7c7-99f3573cb18f', url: 'https://github.com/varun921-tech/cicd-project.git'
                 }
             }
             stage('Test'){
